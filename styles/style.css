@@ -1,0 +1,72 @@
+/* *{
+    width: 1920px;
+} */
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    border: 2px solid black;
+}
+header{
+    max-width: 1440px;
+    height: 130px;
+    margin: auto;
+    /* background-color: aquamarine; */
+}
+
+/* common styles */
+.special-alphabet {
+    color: #FF42A5;
+}
+
+
+/* Header Section */
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left-side{
+    height: 56px;
+    font-size: 45px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* .gamer{
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 20px;
+} */
+.header-right-side{
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+.header-right-side a{
+    color: #3C354F;
+    /* font-size: 18px; */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.header-anchor a{
+    padding: 0 32px;
+}
+.btn{
+    background-color: #0B022310;
+    /* font-size: 24px; */
+    border: none;
+    color: #3C354F;
+    padding: 15px 32px;
+    border-radius: 5px;
+    text-align: center;
+}
+.fa-youtube{
+color: red;
+padding: 0 22px;
+}
