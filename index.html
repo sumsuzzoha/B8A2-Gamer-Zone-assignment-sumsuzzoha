@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B8A2-Gamer-Zone</title>
 
-    <!-- fontlink -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap" rel="stylesheet">
 
     <!-- Icons Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -18,52 +14,58 @@
 
     <!-- style link -->
     <link rel="stylesheet" href="/styles/style.css">
+    <!-- <link rel="stylesheet" href="/styles/style-media-query.css"> -->
+
+    <!-- fontlink -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <header class="head-container">
-        <div class="header-left-side">
-            <img src="/images/Frame.png" alt="">
-            <h3 class="gamer"><span class="special-alphabet"> G</span>amer</h3>
-        </div>
-        <div class="header-right-side">
-            <div class="header-anchor">
-                <a href="">About Us</a>
-                <a href="">Developers</a>
-                <button class="btn"><a href="" class="btn-content">Follow Us On<i class="fa-brands fa-youtube"></i> <i
-                            class="fa-brands fa-tiktok"></i></a></button>
-
-                <!-- <button class="btn"><a href=""><span>Follow Us On <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-tiktok"></i></span></a></button> -->
+    <header class="class-hide">
+        <nav class="nav-container">
+            <div class="gamer-logo">
+                <img src="/images/Frame.png" alt="">
+                <div><span class="special-alphabet"> G</span>amer</div>
             </div>
-        </div>
-    </header>
-    <main>
-        <!-- section1 -->
-        <section class="main-section1">
-            <div class="sec-card1">
-                <div class="card1">
-                    <div class="card1-content">
-                        <p>Play Like The</p>
-                        <h2 class="gradient-text">G.O.A.T.</h2>
+            <div class="header-right-side">
+                <div class="header-anchor">
+                    <a href="">About Us</a>
+                    <a href="">Developers</a>
+                    <button class="btn"><a href="" class="btn-content">Follow Us On<i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-tiktok"></i></a></button>
+                </div>
+            </div>
+        </nav>
+        <!-- section1/Banner -->
+        <section class="banner-section">
+            <div class="banner-card">
+                <div class="ban-card1">
+                    <div class="ban-card1-content">
+                        <h3>Play Like The</h3>
+                        <div class="gradient-text">G.O.A.T.</div>
                         <ul>
-                            <li>1-Click instant play</li>
-                            <li>No Download</li>
-                            <li>1000s of supported online games</li>
+                            <li><i class="fa-regular fa-circle-play"></i> 1-Click instant play</li>
+                            <li><i class="fa-solid fa-download"></i> No Download</li>
+                            <li><i class="fa-solid fa-user-group"></i> 1000s of supported online games</li>
                         </ul>
-                        <div class="sec1-btn">
-                            <button class="sec1-btn-sign"><a href="">Sign In</a></button>
-                            <button class="sec1-btn-rogue"><a href="">Go Rogue</a></button>
+                        <div class="buttons">
+                            <a href=""><button class="sec1-btn-sign">Sign In</button></a>
+                            <a href=""><button class="sec1-btn-rogue">Go Rogue</button></a>
                         </div>
                     </div>
                 </div>
-                <div class="card2">
+                <div class="ban-card2">
                     <img src="/images/Group 18.png" alt="">
                 </div>
             </div>
         </section>
 
-        <!-- section 2 we are gamers -->
+    </header>
+    <main>
+        <!-- section 2 we are gamers starts -->
         <section class="main-section2">
             <div class="sec2-card1">
                 <img src="/images/pngwing 4.png" alt="">
@@ -74,11 +76,12 @@
                     company. We develop, publish and distribute multiplayer
                     mobile games. We reach over 400 million players each
                     month and our audience keeps growing.</p>
-                <button class="sec1-btn-know-more"><a href="">know more</a></button>
+                <a href=""><button class="sec2-btn-know-more">know more</button></a>
                 <h5>Our purpose...<span style="font-size: 30px; font-weight: bold;"><br>“unleash the gamer in
                         everyone”</span></h5>
             </div>
         </section>
+        <!-- section 2 we are gamers end -->
 
         <!-- section 3 Online games & videos start -->
         <section class="main-section3">
@@ -93,7 +96,7 @@
                         <div class="image-container">
                             <img src="/images/Rectangle 4.png" alt="Image" class="zoomable">
                             <div class="overlay">
-                                <i class="fa fa-play-circle"><br><span id="watch-now">Watch Now</span></i>
+                                <i class="fa fa-play-circle"><br><span class="watch-now">Watch Now</span></i>
                             </div>
                         </div>
                     </a>
@@ -104,7 +107,7 @@
                         <div class="image-container">
                             <img src="/images/Rectangle 5.png" alt="Image" class="zoomable">
                             <div class="overlay">
-                                <i class="fa fa-play-circle"><br><span id="watch-now">Watch Now</span></i>
+                                <i class="fa fa-play-circle"><br><span class="watch-now">Watch Now</span></i>
                             </div>
                         </div>
                     </a>
@@ -115,7 +118,7 @@
                         <div class="image-container">
                             <img src="/images/Rectangle 7.png" alt="Image" class="zoomable">
                             <div class="overlay">
-                                <i class="fa fa-play-circle"><br><span id="watch-now">Watch Now</span></i>
+                                <i class="fa fa-play-circle"><br><span class="watch-now">Watch Now</span></i>
                             </div>
                         </div>
                     </a>
@@ -126,7 +129,7 @@
                         <div class="image-container">
                             <img src="/images/Rectangle 6.png" alt="Image" class="zoomable">
                             <div class="overlay">
-                                <i class="fa fa-play-circle"><br><span id="watch-now">Watch Now</span></i>
+                                <i class="fa fa-play-circle"><br><span class="watch-now">Watch Now</span></i>
                             </div>
                         </div>
                     </a>
@@ -134,6 +137,10 @@
                 </div>
             </div>
         </section>
+        <!-- section 3 Online games & videos end -->
+
+        <!-- section4 starts  -->
+        <!-- section4 end  -->
 
         <!-- section 5 online games play anytime anywhere start -->
         <section class="main-section5">
@@ -149,18 +156,19 @@
                 </div>
             </div>
         </section>
+        <!-- section 5 online games play anytime anywhere End -->
 
         <!-- section 6 carrers start -->
         <section class="main-section6">
-            <div class="sec-card6">
-                <div class="card6-1">
+            <div class="section6-container">
+                <div class="section6-container-left">
                     <h3>Careers</h3>
                     <p>Gamer is driven to create the best and most fun games for our millions of
                         players all around the world, and we,re always on the lookout for more top
                         talent to join our growing team. If you,d like to help us make great games
                         and be a part of Gamers bright future, we,d love to hear from you.</p>
-                    <div class="grid-container">
-                        <div class="grid-list-left">
+                    <div class="careers-list-container">
+                        <div class="careers-list-left">
                             <div>Multimedia Artist +</div>
                             <div>Data Engineer +</div>
                             <div>Adroid Engineer +</div>
@@ -168,7 +176,7 @@
                             <div>Group Financial Accountant +</div>
                             <div>Senior User Acuisition Specialist +</div>
                         </div>
-                        <div class="grid-list-right">
+                        <div class="careers-list-right">
                             <div>Lisbon, Portugal</div>
                             <div>Lisbon, Portugal</div>
                             <div>Zoetermeer, Netherlands</div>
@@ -178,15 +186,16 @@
                         </div>
 
                     </div>
-                    <button class="sec1-btn-know-more"><a href="">See all positions</a></button>
+                    <a href=""><button class="sec6-btn-seeAll">See all positions</button></a>
                 </div>
-                <div class="card6-2">
+                <div class="section6-container-right">
                     <img src="/images/Group 65.png" alt="">
                 </div>
             </div>
         </section>
+        <!-- section 6 carrers end -->
 
-        <!-- section 7 options start -->
+        <!-- section 7 button options start -->
         <section class="section7-btns">
             <div class="categories-btn-sec">
                 <a href="" class="btn-hover-sec">
@@ -231,38 +240,37 @@
 
     <footer class="footer-section">
         <div class="footer-content">
-            <div class="footer-logo">
+            <div class="gamer-logo">
                 <img src="/images/Frame.png" alt="">
-                <h3 class="gamer"><span class="special-alphabet"> G</span>amer</h3>
+                <div class="gamer">
+                    <h2><span class="special-alphabet"> G</span>amer</h2>
+                </div>
             </div>
-            <div>
-                <p>Our Story <span>Games</span> <span>Web Games</span> <span>Careers Support</span> <span>My
+            <div class="footer-options">
+                <p class="opt-list">Our Story <span class="opt-list">Games</span> <span class="opt-list">Web
+                        Games</span> <span class="opt-list">Careers Support</span> <span class="opt-list">My
                         Account</span></p>
             </div>
-            <div>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-apple"></i>
+            <div class="footer-options">
+                <i id="tw" class="fa-brands fa-twitter"></i>
+                <i id="fb" class="fa-brands fa-facebook"></i>
+                <i id="yt" class="fa-brands fa-youtube"></i>
+                <i id="li" class="fa-brands fa-linkedin"></i>
+                <i id="ins" class="fa-brands fa-instagram"></i>
+                <i id="apple" class="fa-brands fa-apple"></i>
 
             </div>
-            <div>
-                <p>Terms and Conditions <span>Privacy Policy</span><span>Cookie Policy</span><span>Privacy
-                        Settings</span></p>
+            <div class="footer-options">
+                <p class="footer-terms">Terms and Conditions<span class="footer-terms">Privacy Policy</span><span
+                        class="footer-terms">Cookie Policy</span><span class="footer-terms">Privacy Settings</span></p>
             </div>
-            <div>
-                <p>Play Games @ Gamer @ 2000-2023 Gamer Bangladesh
+            <div class="footer-options">
+                <p class="footer-copyright">Play Games @ Gamer @ 2000-2023 Gamer Bangladesh
                 </p>
             </div>
         </div>
 
     </footer>
-
-    <section>
-
-    </section>
 </body>
 
 </html>
