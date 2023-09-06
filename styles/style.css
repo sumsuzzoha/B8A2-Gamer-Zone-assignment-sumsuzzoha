@@ -1,19 +1,18 @@
-/* *{
-    width: 1920px;
-} */
-
-body {
-    max-width: 1920px;
-    margin: 0 auto;
+* {
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    max-width: 1920px;
+    margin: 0 auto;
     border: 2px solid black;
 }
-header{
+
+header {
     max-width: 1440px;
     height: 130px;
     margin: auto;
-    /* background-color: aquamarine; */
 }
 
 /* common styles */
@@ -21,14 +20,74 @@ header{
     color: #FF42A5;
 }
 
+a {
+    text-decoration: none;
+}
+
+H3 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    color: #534C64;
+}
+.gradient-text {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(  #F948B2, #8758F1);
+    background-clip: text;
+    -webkit-background-clip: text;     /* For older Safari */
+    color: transparent;
+}
+/* Common section End */
+.main-section1 {
+    max-width: 1920px;
+    margin: auto;
+
+}
+
+.card1-content ul,
+.sec-card6 ul li {
+    list-style: none;
+    padding: 0;
+    color: #534C64;
+    font-size: 20px;
+}
+
+.card1-content ul li {
+    margin-top: 18px;
+}
+
+.sec1-btn a,
+.card1-content p,
+h3,
+.sec1-btn-know-more {
+    text-transform: uppercase;
+}
+
+.card1-content p {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0;
+}
+
+.card1-content h2 {
+    font-weight: bolder;
+    font-size: 95px;
+    margin: 8px 0;
+}
+
 
 /* Header Section */
-.head-container{
+.head-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header-left-side{
+
+.header-left-side {
     height: 56px;
     font-size: 45px;
     font-weight: 900;
@@ -37,36 +96,382 @@ header{
     gap: 20px;
 }
 
-/* .gamer{
-    font-size: 45px;
-    font-weight: bold;
-    padding-left: 20px;
-} */
-.header-right-side{
+.header-right-side {
     height: 56px;
     display: flex;
     align-items: center;
 }
-.header-right-side a{
+
+.header-right-side a {
     color: #3C354F;
-    /* font-size: 18px; */
     font-weight: bold;
     text-decoration: none;
     padding: 0 20px;
 }
-.header-anchor a{
-    padding: 0 32px;
-}
-.btn{
+
+.btn {
     background-color: #0B022310;
-    /* font-size: 24px; */
+    font-size: 18px;
     border: none;
     color: #3C354F;
-    padding: 15px 32px;
+    padding: 15px 24px;
     border-radius: 5px;
     text-align: center;
 }
-.fa-youtube{
-color: red;
-padding: 0 22px;
+
+
+
+.fa-youtube {
+    color: red;
+    padding: 0 22px;
 }
+
+/* header section end */
+.sec-card1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    box-shadow: 5px red;
+}
+
+.card1 {
+    background-image: url("/images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+
+}
+
+.card1-content {
+    width: 365px;
+    height: 402px;
+    margin: 148px 0 0 240px;
+
+}
+
+.sec1-btn-sign {
+    font-size: 18px;
+    padding: 21px 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: #FF42A5;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.sec1-btn a,
+.sec1-btn-know-more a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.sec1-btn-rogue {
+    font-size: 18px;
+    padding: 21px 40px;
+    background-color: #4EC5F7;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.card2 {
+    height: 680px;
+    width: 720px;
+}
+
+/* main section 1 start */
+.main-section2 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding: 56px 240px;
+    background-color: #FF42A505;
+}
+
+.sec2-card2 {
+    text-align: end;
+    margin: 40px 0 40px 52px;
+}
+
+.sec2-card2 p {
+    font-size: 18px;
+    color: #534C64;
+
+}
+
+.sec2-card2 h5 {
+    font-size: 24px;
+    color: #534C64;
+
+}
+
+.sec1-btn-know-more {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 21px 40px;
+    background-color: #FF42A5;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+
+/* <!-- section 3 Online games & videos start --> */
+/* <!-- section 3 Online games & videos start --> */
+.main-section3 {
+    max-width: 1440px;
+    text-align: center;
+    margin: 120px auto;
+}
+
+.section3-header {
+    margin-bottom: 50px;
+}
+
+/* Hover efect on section3 start*/
+.section3-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 100vh; */
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cards {
+    width: 342px;
+    height: 484px;
+    font-size: 20px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    /* width: 100%;  */
+    /* Adjust to your desired image width */
+    /* height: 100%;  */
+    /* Adjust to your desired image height */
+}
+
+.zoomable {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Maintain aspect ratio and cover container */
+    transition: transform 0.5s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.overlay i {
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image-container:hover .overlay {
+    opacity: 0.8;
+}
+
+#watch-now {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF42A5;
+}
+
+/* Section3 end  */
+/* Section3 end  */
+
+
+
+/* section 5 online games play anytime anywhere start */
+.main-section5 {
+    max-width: 1440px;
+    height: 773px;
+    /* text-align: center; */
+    margin: 120px auto;
+}
+
+.sec-card5 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 40px;
+}
+
+.card5-1 {
+    height: 773px;
+    position: relative;
+
+}
+
+#card5-img1 {
+    height: 650px;
+    width: 710px;
+}
+
+#card5-img2 {
+    position: absolute;
+    bottom: 0px;
+    right: 66px;
+}
+
+.card5-2 {
+    margin: auto 0;
+}
+
+/* <!-- section 6 carrers start --> */
+.main-section6 {
+    max-width: 1920px;
+    height: 820px;
+    background-color: #FF42A5;
+}
+
+.sec-card6 {
+    /* width: 1440px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.card6-1 {
+    width: 680px;
+    height: 580px;
+    color: white;
+    text-align: justify;
+    margin-left: 240px;
+}
+
+.card6-1 p {
+    color: white;
+}
+
+.card6-1 .sec1-btn-know-more {
+    color: #FF42A5;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.card6-1 .sec1-btn-know-more a {
+    color: #FF42A5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-list-left div {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0;
+    text-align: start;
+}
+
+.grid-list-right div {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0;
+    text-align: end;
+}
+
+/* button categories section */
+/* button categories section Starts*/
+.section7-btns{
+    background-color: #FF42A505;
+    padding: 100px 0;
+
+}
+ .categories-btn-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    /* border: 2px solid red; */
+}
+.btn-hover-sec {
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    height: 80px;
+    width: calc(20% - 10px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 40px;
+    margin: 28px 0;
+
+
+}
+.btn-hover-sec:nth-child(n + 6) {
+    width: calc(25% - 60px);
+    /* 4 columns in the second row, 25% width for each */
+
+}
+
+.btn-hover-sec:hover {
+    color: #FF42A5;
+    /* Red text color on hover */
+    border: 3px solid #FF42A5;
+    border-radius: 40px;
+}
+/* button categories section Ends*/
+/* button categories section */
+
+
+/* Footer Section */
+.footer-section {
+    height: 636px;
+    width: 1920px;
+    /* background-color: #0B0223; */
+}
+
+.footer-content {
+    margin: 120px auto;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.footer-logo {
+    height: 56px;
+    font-size: 45px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* rough section
+ */
+
+
+
+
+
+/* Define the default styles for the div */
+
+
